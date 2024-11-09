@@ -1,0 +1,50 @@
+
+@media screen and (min-width :0px) and (max-width : 768px) {
+    .Home-caption
+    {   
+        font-size: 40px;
+    }
+    .Home-Socilal-links li i
+    {
+        font-size: 15px;
+    }
+    .member-team-img img {
+        width: 60px;
+        height: 60px;
+      }
+      .carousel-inner .carousel-item {
+        flex-direction: column;
+      }
+      .dot {
+        width: 50%;
+        height: 30%;
+        background-image: url(..//imgs/dots.png);
+        background-repeat: repeat -x;
+        z-index: -1;
+        top: 74%;
+        right: 52%;
+        position: absolute;
+       
+    }
+    .about-content
+    {
+        margin-top: 60px;
+    }
+    .team-social-link ul li
+    {
+        padding: 0px 0px;
+    }
+}
+@media screen and (max-width: 992px) { 
+    .dot {
+        width: 50%;
+        height: 30%;
+        background-image: url(..//imgs/dots.png);
+        background-repeat: repeat -x;
+        z-index: -1;
+        top: 27%;
+        right: 52%;
+        position: absolute;
+       
+    }
+ }
